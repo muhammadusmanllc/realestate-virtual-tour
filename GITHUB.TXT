@@ -1,0 +1,3 @@
+git branch -r
+git checkout Huzaifa-Shah
+git status (Track All Files)
