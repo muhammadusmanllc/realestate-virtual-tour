@@ -1,0 +1,29 @@
+datasource db {
+  provider = "postgresql"   // we are using PostgreSQL
+  url      = env("DATABASE_URL")  // database connection string from .env file
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        Int      @id @default(autoincrement())   // unique ID
+  name      String
+  email     String   @unique                        // must be unique
+  password  String
+  createdAt DateTime @default(now())                 // auto time
+  properties Property[]                             // one user can own many properties
+}
+
+model Property {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  price       Int
+  location    String
+  images      String   // JSON string (array of image URLs)
+  owner       User     @relation(fields: [ownerId], references: [id])
+  ownerId     Int
+  createdAt   DateTime @default(now())
+}
