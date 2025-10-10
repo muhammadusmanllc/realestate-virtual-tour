@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - RealEstate Pro</title>
+    <meta name="description" content="Find answers to common questions about buying, selling, and renting properties with RealEstate Pro.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDJMMjggMTBWMjhIMjBWMThIMTJWMjhINFYxMEwxNiAyWiIgZmlsbD0iIzE0YjhhNiIvPgo8L3N2Zz4K">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="faq.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>RealEstate Pro</span>
+                    </a>
+                </div>
+                
+                <!-- Navigation Search -->
+                <div class="nav-search">
+                    <input type="text" placeholder="Search properties, locations..." class="nav-search-input">
+                    <button class="nav-search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav-menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#virtual-tours">Virtual Tours</a></li>
+                    <li><a href="#sell-property">Sell Property</a></li>
+                    <li><a href="#owner" class="owner-btn">Owner</a></li>
+                    <li><a href="account.html" class="user-icon"><i class="fas fa-user"></i></a></li>
+                </ul>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Frequently Asked Questions</h1>
+                <p>Find answers to common real estate questions</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>FAQ</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Search -->
+    <section class="faq-search">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="faq-search" placeholder="Search for answers..." class="faq-search-input">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Categories -->
+    <section class="faq-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">All Questions</button>
+                <button class="tab-btn" data-category="buying">Buying</button>
+                <button class="tab-btn" data-category="selling">Selling</button>
+                <button class="tab-btn" data-category="renting">Renting</button>
+                <button class="tab-btn" data-category="virtual-tours">Virtual Tours</button>
+                <button class="tab-btn" data-category="financing">Financing</button>
+                <button class="tab-btn" data-category="legal">Legal</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Content -->
+    <section class="faq-content">
+        <div class="container">
+            <div class="faq-grid">
+                <!-- Popular Questions -->
+                <div class="faq-section">
+                    <h2><i class="fas fa-star"></i> Most Popular Questions</h2>
+                    
+                    <div class="faq-item" data-category="buying">
+                        <div class="faq-question">
+                            <h3>How do I get pre-approved for a mortgage?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Getting pre-approved for a mortgage is an important first step in the home buying process. Here's what you need to do:</p>
+                            <ul>
+                                <li><strong>Gather financial documents:</strong> Pay stubs, tax returns, bank statements, and employment verification</li>
+                                <li><strong>Check your credit score:</strong> Ensure it's in good standing and correct any errors</li>
+                                <li><strong>Calculate your budget:</strong> Determine how much you can afford monthly</li>
+                                <li><strong>Contact lenders:</strong> Shop around with multiple lenders for the best rates</li>
+                                <li><strong>Submit application:</strong> Complete the pre-approval application with your chosen lender</li>
+                            </ul>
+                            <p>Pre-approval typically takes 1-3 business days and gives you a competitive edge when making offers.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="virtual-tours">
+                        <div class="faq-question">
+                            <h3>How do virtual tours work and are they accurate?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our virtual tours use advanced 360° camera technology and 3D rendering to create immersive, accurate representations of properties:</p>
+                            <ul>
+                                <li><strong>360° Photography:</strong> Professional cameras capture every angle of each room</li>
+                                <li><strong>Interactive Navigation:</strong> Click and move through spaces naturally</li>
+                                <li><strong>Accurate Measurements:</strong> Floor plans and dimensions are precisely measured</li>
+                                <li><strong>High Resolution:</strong> Zoom in to see details clearly</li>
+                                <li><strong>VR Compatible:</strong> Use VR headsets for even more immersive experience</li>
+                            </ul>
+                            <p>Our virtual tours are 99% accurate and have helped reduce unnecessary property visits by 60%.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="selling">
+                        <div class="faq-question">
+                            <h3>What's the best time to sell my house?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The best time to sell depends on several factors:</p>
+                            <ul>
+                                <li><strong>Seasonal timing:</strong> Spring (March-May) typically sees the most buyer activity</li>
+                                <li><strong>Market conditions:</strong> Seller's market vs. buyer's market conditions</li>
+                                <li><strong>Your personal situation:</strong> Job changes, family needs, financial readiness</li>
+                                <li><strong>Property preparation:</strong> When your home is in optimal condition</li>
+                                <li><strong>Local market trends:</strong> Specific to your area and property type</li>
+                            </ul>
+                            <p>Contact our agents for a personalized market analysis to determine the optimal timing for your sale.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buying Questions -->
+                <div class="faq-section">
+                    <h2><i class="fas fa-home"></i> Buying Questions</h2>
+                    
+                    <div class="faq-item" data-category="buying">
+                        <div class="faq-question">
+                            <h3>What should I look for during a home inspection?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>A thorough home inspection should cover these key areas:</p>
+                            <ul>
+                                <li><strong>Structural elements:</strong> Foundation, walls, roof, and framing</li>
+                                <li><strong>Systems:</strong> Electrical, plumbing, HVAC, and security systems</li>
+                                <li><strong>Interior:</strong> Floors, walls, ceilings, windows, and doors</li>
+                                <li><strong>Exterior:</strong> Siding, gutters, landscaping, and drainage</li>
+                                <li><strong>Safety features:</strong> Smoke detectors, carbon monoxide detectors, railings</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="buying">
+                        <div class="faq-question">
+                            <h3>How much should I offer on a house?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Your offer should be based on:</p>
+                            <ul>
+                                <li>Comparable sales in the area (comps)</li>
+                                <li>Current market conditions</li>
+                                <li>Property condition and needed repairs</li>
+                                <li>Your maximum budget and pre-approval amount</li>
+                                <li>How long the property has been on the market</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="buying financing">
+                        <div class="faq-question">
+                            <h3>What are closing costs and how much should I expect to pay?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Closing costs typically range from 2-5% of the home's purchase price and include:</p>
+                            <ul>
+                                <li>Loan origination fees</li>
+                                <li>Appraisal and inspection fees</li>
+                                <li>Title insurance and attorney fees</li>
+                                <li>Property taxes and homeowners insurance</li>
+                                <li>Recording fees and transfer taxes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Selling Questions -->
+                <div class="faq-section">
+                    <h2><i class="fas fa-dollar-sign"></i> Selling Questions</h2>
+                    
+                    <div class="faq-item" data-category="selling">
+                        <div class="faq-question">
+                            <h3>How do I determine my home's value?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Several methods help determine your home's market value:</p>
+                            <ul>
+                                <li><strong>Comparative Market Analysis (CMA):</strong> Compare with similar recent sales</li>
+                                <li><strong>Professional appraisal:</strong> Hire a licensed appraiser</li>
+                                <li><strong>Online valuation tools:</strong> Get estimates from multiple sources</li>
+                                <li><strong>Real estate agent consultation:</strong> Get expert local market insight</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="selling">
+                        <div class="faq-question">
+                            <h3>Do I need to make repairs before selling?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Focus on repairs that provide the best return on investment:</p>
+                            <ul>
+                                <li><strong>Essential repairs:</strong> Fix major issues that could deter buyers</li>
+                                <li><strong>Cosmetic improvements:</strong> Fresh paint, deep cleaning, minor updates</li>
+                                <li><strong>Curb appeal:</strong> Landscaping, exterior maintenance</li>
+                                <li><strong>Safety issues:</strong> Address any safety hazards immediately</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="selling">
+                        <div class="faq-question">
+                            <h3>How long does it typically take to sell a house?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The timeline varies based on several factors:</p>
+                            <ul>
+                                <li><strong>Market conditions:</strong> Hot markets: 1-2 weeks, Normal markets: 30-60 days</li>
+                                <li><strong>Pricing strategy:</strong> Properly priced homes sell faster</li>
+                                <li><strong>Property condition:</strong> Move-in ready homes sell quicker</li>
+                                <li><strong>Location:</strong> Desirable areas typically sell faster</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Renting Questions -->
+                <div class="faq-section">
+                    <h2><i class="fas fa-key"></i> Renting Questions</h2>
+                    
+                    <div class="faq-item" data-category="renting">
+                        <div class="faq-question">
+                            <h3>What documents do I need to rent an apartment?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Typical rental application requirements include:</p>
+                            <ul>
+                                <li>Completed rental application</li>
+                                <li>Proof of income (pay stubs, tax returns)</li>
+                                <li>Employment verification letter</li>
+                                <li>Bank statements</li>
+                                <li>References from previous landlords</li>
+                                <li>Valid ID and Social Security card</li>
+                                <li>Credit report authorization</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="renting">
+                        <div class="faq-question">
+                            <h3>How much rent can I afford?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The general rule is the 30% rule - your rent should not exceed 30% of your gross monthly income. Consider these factors:</p>
+                            <ul>
+                                <li>Monthly gross income</li>
+                                <li>Other debt obligations</li>
+                                <li>Utilities and additional costs</li>
+                                <li>Emergency fund requirements</li>
+                                <li>Lifestyle and savings goals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Legal Questions -->
+                <div class="faq-section">
+                    <h2><i class="fas fa-gavel"></i> Legal Questions</h2>
+                    
+                    <div class="faq-item" data-category="legal">
+                        <div class="faq-question">
+                            <h3>Do I need a real estate attorney?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>While not always required, an attorney can be beneficial for:</p>
+                            <ul>
+                                <li>Complex transactions</li>
+                                <li>Title issues or disputes</li>
+                                <li>Contract negotiations</li>
+                                <li>First-time buyers needing guidance</li>
+                                <li>Commercial real estate transactions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="legal">
+                        <div class="faq-question">
+                            <h3>What is title insurance and do I need it?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Title insurance protects against financial loss from defects in a property's title. It covers:</p>
+                            <ul>
+                                <li>Unknown liens or encumbrances</li>
+                                <li>Fraud or forgery in the chain of title</li>
+                                <li>Errors in public records</li>
+                                <li>Undisclosed heirs claiming ownership</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Support -->
+    <section class="faq-support">
+        <div class="container">
+            <div class="support-content">
+                <h2>Still Have Questions?</h2>
+                <p>Can't find the answer you're looking for? Our expert team is here to help you with any real estate questions.</p>
+                <div class="support-options">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                    <a href="tel:+15551234567" class="btn btn-outline">Call Now: (555) 123-4567</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-home"></i>
+                        <span>RealEstate Pro</span>
+                    </div>
+                    <p>Your trusted partner in finding the perfect home with cutting-edge virtual tour technology.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#properties">Properties</a></li>
+                        <li><a href="index.html#virtual-tours">Virtual Tours</a></li>
+                        <li><a href="selling-tips.html">Sell Property</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Property Types</h3>
+                    <ul>
+                        <li><a href="#">Apartments</a></li>
+                        <li><a href="#">Houses</a></li>
+                        <li><a href="#">Condos</a></li>
+                        <li><a href="#">Luxury Homes</a></li>
+                        <li><a href="#">Commercial</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="buying-tips.html">Buying Tips</a></li>
+                        <li><a href="selling-tips.html">Selling Tips</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#">Market Reports</a></li>
+                        <li><a href="#">Mortgage Calculator</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 RealEstate Pro. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-services.html">Terms of Service</a>
+                    <a href="cookie-policy.html">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+</html>
